@@ -1,10 +1,10 @@
 <html>
 	<head>
 		<title></title>
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="stylesheet" type="text/css" href="style-accordion.css" />
-		<script type="text/javascript" src="jquery.js"></script>
-		<script type="text/javascript" src="jquery-page-fade.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/style-accordion.css" />
+		<script type="text/javascript" src="assets/jquery.js"></script>
+		<script type="text/javascript" src="assets/jquery-page-fade.js"></script>
 		<script type="text/javascript">
 				function emptyCheck(x, y){
 					var errorName = "error" + x;
@@ -157,7 +157,7 @@
 		
 		
 		<div class="home_desc">
-			<table align="center"><tr><td><img id="OyceLogo" src="OyceLogo3.png"/></td></tr></table>
+			<table align="center"><tr><td><img id="OyceLogo" src="logos/OyceLogo3.png"/></td></tr></table>
 			<h1 style="font-family: impact;"><b>BLAST CARBOBLOCKS / UHDE INDIA</b></br>Award 2014</h1>	
 			<h2><b>National Technical Paper & Poster Presentation Competition</b></h2>
 			<hr/>
@@ -165,9 +165,9 @@
 			<hr/>
 			<div id="logos"></br>
 				<table align="center"><tr><td>
-					<img src="tsec logo.png" height="70px" width="99px"/>
-					<img style="margin:0 10px 0 10px" src="iichemrclogo.png" height="70px" width="90px" />
-					<img src="uhde-india-logo.png" height="70px" width="184px" />
+					<img src="logos/tsec logo.png" height="70px" width="99px"/>
+					<img style="margin:0 10px 0 10px" src="logos/iichemrclogo.png" height="70px" width="90px" />
+					<img src="logos/uhde-india-logo.png" height="70px" width="184px" />
 				</td></tr></table>
 			</div>
 			<h6 id="creator">&copy; Copyright <b>Kapil Nichani</b>. All rights reserved</br>Web design by [ <font id="BahulJain">Bahul Jain</font> ]</h6>
