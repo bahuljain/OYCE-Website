@@ -1,0 +1,431 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+
+.backHome {
+	background: rgba(0,0,0,0.2);
+	padding: 10px;
+	margin:0px;
+	position:absolute;
+	top:0px;
+	left:70%;
+	color:white;
+	z-index:1000;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.home{
+	cursor:pointer;
+}
+
+.backHome:hover{
+	z-index:1000;
+	font-style: italic;
+}
+
+#menu1, #menu2, #menu3, #menu4, #menu5, #menu6, #menu7, #menu8{
+	color: white;
+	position:absolute;
+	z-index:0;
+	height:12.5%; 
+	margin: 0px; 
+	width: 100%; 
+	padding:0px;
+}
+
+#menu1{
+	top:0%;
+	background: rgba(242,183,1,1);
+}
+
+#menu2{
+	top:12.5%;
+	background: rgba(229,125,4,1);
+}
+
+#menu3{
+	top:25%;
+	background: rgba(240,0,48,1);
+}
+
+#menu4{
+	top: 37.5%;
+	background: rgba(177,0,88,1);
+}
+
+#menu5{
+	top:50%;
+	background: rgba(124,55,138,1); 
+}
+
+#menu6{
+	top:62.5%;
+	background: rgba(52,101,170,1);
+}
+
+#menu7{
+	top:75%;
+	background: rgba(9,162,117,1);
+}
+
+#menu8{
+	top:87.5%;
+	background: rgba(124,184,84,1);
+}
+
+.III, .OYCE, .SE, .application, .timeline, .FAQ, .people, .contactUs {
+	cursor:pointer;
+}
+
+#table {
+	color: white;
+	font-size: 20px;
+	position:absolute;
+	right:0px;
+	margin: 2%;
+	z-index:-95;
+	
+}
+
+#mask{
+	position:absolute;
+	background:white; 
+	height:100%; 
+	width:80%;
+	border-radius: 0 362px 362px 0; 
+	margin:0px;
+	padding:0px;
+	z-index:0;
+}
+
+div table tr td a:hover{
+	font-weight:bold;
+}
+
+.home_desc {
+	background: white;
+	color: black;
+	width:85%;
+	height:100%;
+	z-index:-1;
+	color: white;
+	margin:0px;
+	padding:0px;
+	border-radius: 0 362px 362px 0; 
+}
+
+#OyceLogo{
+	position:relative;
+	margin-top:40px;
+}
+
+.home_desc h1{
+	color: black;
+	position: relative;
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.home_desc h2 {
+	color: black;
+	position: relative;
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.home_desc h3{
+	color: black;
+	position: relative;
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+#tickerContainer{
+	width:50%;
+	height: 20px;
+	top:2%;
+	left:15%;
+	position: absolute;
+}
+
+#opa{
+	background-image: -webkit-gradient(
+  linear, left top, right top, from(rgba(255,255,255,1)),
+  to(rgba(255,255,255,0)));
+	width:200px;
+	height: 20px;
+	position:absolute;
+	
+}
+
+#opa2{
+	background-image: -webkit-gradient(
+  linear, right top, left top, from(rgba(255,255,255,1)),
+  to(rgba(255,255,255,0)));
+	width:200px;
+	height: 20px;
+	right:0px;
+	position:absolute;
+	
+}
+
+#line1{
+	z-index:10000;
+	position:absolute;
+	top:-10px;
+}
+
+#line2{
+	z-index:10000;
+	position:absolute;
+	top:12px;
+}
+
+hr{
+	z-index: 1000;
+	width: 100%;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.3), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.3), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.3), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.3), rgba(0,0,0,0)); 
+}
+
+marquee .application:hover {
+	font-weight:bold;
+	text-decoration: underline;
+}
+
+.home_desc #ticker{
+	color:black;
+	position:absolute;
+	width:100%;
+	border: none;
+	
+}
+
+#logos {
+	padding:0px;
+	position: relative;
+	height: 70px;
+	width: 100%;
+	margin-top:0px;
+	margin-bottom: 50px;
+}
+
+#creator{
+	text-align:center;
+	color:black;
+	position: relative;
+	margin-top:10px;
+	margin-left: 0px;
+	width:100%;
+}
+
+#BahulJain{
+	font-weight:bold;
+	color:blue;
+	cursor:pointer;
+}
+
+.III_desc {
+	background: rgba(242,183,1,1);
+	width:100%;
+	height:100%;
+	z-index:-1;
+	color: white;
+	border-radius: 0 362px 362px 0; 
+}
+
+.III_desc h1, p{
+	width:50%;
+	margin-left: 5%;
+}
+
+.III_desc h1{
+	font-size: 48px;
+	padding-top: 30px;
+}
+
+.III_desc p{
+	font-size: 18px;
+}
+
+.OYCE_desc {
+	background: rgba(229,125,4,1);
+	width:100%;
+	height:100%;
+	z-index:-1;
+	color: white;
+	margin:0px;
+	padding:0px;
+	border-radius: 0 362px 362px 0; 
+	overflow:hidden;
+}
+
+#scrollable {
+	width:103%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+	overflow-y: scroll;
+}
+
+.OYCE_desc h1 {
+	width:50%;
+	margin-left: 5%;
+	padding-top: 30px;
+	font-size: 48px;
+}
+
+.OYCE_desc p, ul {
+	font-weight:100;
+	font-size:18px;
+	width:50%;
+	margin-left: 5%;
+	padding-top:0px;
+}
+
+.SE_desc {
+	background: rgba(240,0,48,1);
+	width:100%;
+	height:100%;
+	z-index:-1;
+	color: white;
+	border-radius: 0 362px 362px 0; 
+}
+
+.SE_desc h1 {
+	width:50%;
+	margin-left: 5%;
+	padding-top: 30px;
+	font-size: 48px;
+}
+
+.SE_desc p {
+	font-weight:100;
+	font-size:18px;
+	width:50%;
+	margin-left: 5%;
+	padding-top:0px;
+}
+
+.application_desc {
+	background: rgba(177,0,88,1);
+	width:100%;
+	height:100%;
+	z-index:-1;
+	color: white;
+	border-radius: 0 362px 362px 0; 
+	overflow:hidden;
+}
+
+.application_desc h1 {
+	width:50%;
+	margin-left: 5%;
+	padding-top: 30px;
+	font-size: 48px;
+}
+
+.application_desc p {
+	font-weight:100;
+	font-size:18px;
+	width:50%;
+	margin-left: 5%;
+	padding-top:0px;
+}
+
+.application_desc #form{
+	margin-left: 5%;
+	z-index:1000;
+}
+
+.application_desc #labeltag{
+	color: white;
+	font-size: 15px;
+	font-weight: 100;
+}
+
+#error1, #error2, #error3,#error4, #error5, #error6, #error7, #error8, #error9, #error10, #error11, #error12, #error13{
+	color: red;
+	font-size: 12px;
+} 
+
+.timeline_desc {
+	background: rgba(124,55,138,1);
+	width:100%;
+	height:100%;
+	z-index:-1;
+	color: white;
+	border-radius: 0 362px 362px 0; 
+	overflow:hidden;
+}
+
+.timeline_desc h1 {
+	width:50%;
+	margin-left: 5%;
+	padding-top: 30px;
+	font-size: 48px;
+}
+
+.timeline_desc p {
+	font-weight:100;
+	font-size:18px;
+	width:50%;
+	margin-left: 5%;
+	padding-top:0px;
+}
+
+.FAQ_desc {
+	background: rgba(52,101,170,1);
+	width:100%;
+	border-radius: 0 362px 362px 0; 
+	z-index:-1;
+	color: white;
+	overflow:hidden;
+}
+
+.people_desc {
+	background: rgba(9,162,117,1);
+	width:100%;
+	height:100%;
+	z-index:-1;
+	color: white;
+	border-radius: 0 362px 362px 0; 
+}
+
+.contactUs_desc {
+	background: rgba(124,184,84,1);
+	width:100%;
+	height:100%;
+	z-index:-1;
+	color: white;
+	border-radius: 0 362px 362px 0; 
+}
+
+.contactUs_desc h3 {
+	margin-left: 40px;
+	padding-top:10px;
+	margin-bottom: 10px;
+}
+
+#maps {
+	position: relative;
+	margin-left:10px;
+	border : 1px solid gray;
+	border-radius : 40px;
+}
+
+#mapsLink {
+	position: relative;
+	margin-left: 40px;
+}
